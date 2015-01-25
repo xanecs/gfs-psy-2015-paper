@@ -1,0 +1,30 @@
+\documentclass[12pt, a4paper]{scrreprt}
+\usepackage[utf8x]{inputenc}
+\usepackage{ngerman}
+\usepackage{pifont}
+\usepackage[numbers, sort]{natbib}
+\usepackage[hyphens]{url}
+
+\usepackage[ngerman]{babel}
+
+\newcommand{\cmark}{\ding{51}}
+\newcommand{\xmark}{\ding{55}}
+
+\setlength{\parskip}{0.5cm}
+\setlength{\parindent}{0cm}
+
+\title{Intelligenz}
+\author{Leon Bentrup}
+
+\begin{document}
+  \maketitle
+  \tableofcontents
+
+  \input{src/01_vorwort}
+  \input{src/02_begriff}
+  \input{src/03_spearman}
+  \input{src/04_tests}
+
+  \bibliographystyle{plaindin}
+  \bibliography{literature}
+\end{document}
